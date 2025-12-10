@@ -35,10 +35,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", type: "image/webp" },
+      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", type: "image/png" },
+      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", sizes: "32x32", type: "image/png" },
+      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", sizes: "16x16", type: "image/png" },
     ],
     apple: [
-      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", sizes: "180x180", type: "image/webp" },
+      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", sizes: "180x180", type: "image/png" },
     ],
     shortcut: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883",
   },
@@ -63,11 +65,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" type="image/webp" sizes="485x94" />
-        <link rel="apple-touch-icon" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" sizes="485x94" />
-        <link rel="shortcut icon" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" type="image/webp" />
-        <link rel="icon" type="image/webp" sizes="32x32" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" />
-        <link rel="icon" type="image/webp" sizes="16x16" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" />
+        <link rel="icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" sizes="32x32" />
+        <link rel="icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" sizes="16x16" />
+        <link rel="shortcut icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" />
+        <link rel="apple-touch-icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" sizes="180x180" />
         <meta name="msvalidate.01" content="DF238DB2B8BB655EFD6CF96236274D79" />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />

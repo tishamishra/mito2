@@ -96,18 +96,8 @@ export default function PricingOffer() {
       <section className="content5 cid-uwyA6RuJFh py-4 bg-white" id="content5-s">
         <div className="container mx-auto px-4">
           <div className="row justify-center">
-            <div className="col-md-12 col-lg-11 JCB" style={{ border: '3px solid #2e2e2e', padding: '15px', borderRadius: '15px', backgroundColor: '#fdb831', display: 'flex', alignItems: 'center', gap: '15px' }}>
-              <div className="WarningBox" style={{ flexShrink: 0, width: '70px', height: '70px' }}>
-                <Image 
-                  src="https://ik.imagekit.io/affin/mitolyn-limited-time-deal.webp" 
-                  alt="Mitolyn Limited Time Offer" 
-                  title="Mitolyn" 
-                  width={70}
-                  height={70}
-                  style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
-                />
-              </div>
-              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg text-black flex-1" style={{ fontFamily: 'Arial, sans-serif', margin: 0 }}>
+            <div className="col-md-12 col-lg-11 JCB" style={{ border: '3px solid #2e2e2e', padding: '15px', borderRadius: '15px', backgroundColor: '#fdb831' }}>
+              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg text-black text-center" style={{ fontFamily: 'Arial, sans-serif', margin: 0 }}>
                 WARNING: Stock levels of Mitolyn™ are limited. Accept your reserved bottle above NOW before your discount expires.
               </p>
             </div>
