@@ -45,7 +45,7 @@ p, .text-base, .text-lg, .mbr-text {
 }
 
 section {
-  background-color: #f8f9ff;
+  background-color: #ffffff;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,6 +206,18 @@ p {
   cursor: pointer;
   transform: rotate(0deg);
   transition: all 0.3s ease-in-out;
+  display: block;
+  z-index: 1001;
+}
+
+.navbar-toggler {
+  display: block;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 1001;
+  position: relative;
 }
 
 .hamburger span {
@@ -254,7 +266,31 @@ p {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Ensure navbar is always on top */
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Mobile menu improvements */
+@media (max-width: 767px) {
+  .navbar-toggler {
+    display: block !important;
+    position: relative;
+    z-index: 1001;
+  }
+  
+  /* Ensure mobile menu is accessible */
+  #navbarSupportedContent {
+    display: block !important;
+  }
+}
+
 @media (min-width: 768px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+  
   .navbar-collapse-mobile {
     transform: translateX(0) !important;
   }
@@ -422,7 +458,7 @@ p, div, span, li {
 /* Responsive utilities */
 @media (max-width: 768px) {
   .md\:hidden {
-    display: none;
+    display: none !important;
   }
   
   .md\:block {
@@ -431,6 +467,27 @@ p, div, span, li {
   
   .md\:flex {
     display: flex;
+  }
+  
+  /* Ensure desktop menu is completely hidden on mobile */
+  .desktop-menu {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    width: auto !important;
+    overflow: visible !important;
   }
 }
 
@@ -459,4 +516,24 @@ h1, h2, h3, h4, h5, h6, p {
   h1, h2, h3, h4, h5, h6 {
     font-size: clamp(1.25rem, 4vw, 2rem);
   }
+  
+  /* Ensure hamburger button is always visible and clickable */
+  .navbar-toggler {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+}
+
+/* Fix duplicate numbering in Ingredients section */
+.ingredients-content ol.ingredients-list li.ingredient-item::before {
+  display: none !important;
+  content: none !important;
+  counter-increment: none !important;
+}
+
+.cid-uwDUNYnBmN .ingredients-content ol li::before {
+  display: none !important;
+  content: none !important;
 }

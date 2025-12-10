@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function PricingSection() {
   return (
     <>
-      <section className="content4 cid-uppRxLahsB py-10 text-center" id="content4-7x" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      <section className="content4 cid-uwxNh1cJOb py-10 text-center" id="mitolyn-pricing" style={{ background: '#1098b7' }}>
         <div className="container mx-auto px-4">
           <div className="row justify-center">
             <div className="title col-md-12 col-lg-10">
@@ -28,10 +28,16 @@ export default function PricingSection() {
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-1-bottle.webp?updatedAt=1765361274882" 
                       alt="Mitolyn-30-day-supply" 
-                      width={400} 
-                      height={400}
+                      width={600} 
+                      height={600}
                       className="w-full h-auto"
-                      style={{ maxWidth: '100%', height: 'auto' }}
+                      style={{ 
+                        maxWidth: '100%', 
+                        width: '100%',
+                        height: 'auto',
+                        minHeight: '500px',
+                        objectFit: 'contain'
+                      }}
                     />
                   </a>
                 </div>
@@ -45,10 +51,16 @@ export default function PricingSection() {
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-6-bottles.webp?updatedAt=1765361274884" 
                       alt="Mitolyn-180-day-supply" 
-                      width={400} 
-                      height={400}
+                      width={600} 
+                      height={600}
                       className="w-full h-auto"
-                      style={{ maxWidth: '100%', height: 'auto' }}
+                      style={{ 
+                        maxWidth: '100%', 
+                        width: '100%',
+                        height: 'auto',
+                        minHeight: '500px',
+                        objectFit: 'contain'
+                      }}
                     />
                   </a>
                 </div>
@@ -62,10 +74,16 @@ export default function PricingSection() {
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-3-bottle.webp?updatedAt=1765361274883" 
                       alt="Mitolyn-90-day-supply" 
-                      width={400} 
-                      height={400}
+                      width={600} 
+                      height={600}
                       className="w-full h-auto"
-                      style={{ maxWidth: '100%', height: 'auto' }}
+                      style={{ 
+                        maxWidth: '100%', 
+                        width: '100%',
+                        height: 'auto',
+                        minHeight: '500px',
+                        objectFit: 'contain'
+                      }}
                     />
                   </a>
                 </div>
@@ -75,25 +93,23 @@ export default function PricingSection() {
         </div>
       </section>
 
-      <section className="warning-section py-4 bg-white border-y-2 border-orange-400" id="warning-stock">
+      <section className="content5 cid-uwyA8IU7fg py-4 bg-white" id="content5-t">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-orange-50 border-l-4 border-orange-500 p-4 rounded-sm">
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 mt-0.5">
-                  <svg className="w-5 h-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <p className="text-sm md:text-base font-semibold text-gray-900 mb-1" style={{ fontFamily: 'Arial, sans-serif' }}>
-                    <span className="text-orange-600 font-bold">WARNING:</span> Stock levels of Mitolyn™ are limited
-                  </p>
-                  <p className="text-xs md:text-sm text-gray-700 leading-relaxed" style={{ fontFamily: 'Arial, sans-serif' }}>
-                    Accept your reserved bottle above <strong className="text-gray-900">NOW</strong> before your discount expires. Limited quantities available at this price.
-                  </p>
-                </div>
+          <div className="row justify-center">
+            <div className="col-md-12 col-lg-11 JCB" style={{ border: '3px solid #2e2e2e', padding: '15px', borderRadius: '15px', backgroundColor: '#fdb831', display: 'flex', alignItems: 'center', gap: '15px' }}>
+              <div className="WarningBox" style={{ flexShrink: 0, width: '70px', height: '70px' }}>
+                <Image 
+                  src="https://ik.imagekit.io/affin/mitolyn-limited-time-deal.webp" 
+                  alt="Mitolyn Limited Time Offer" 
+                  title="Mitolyn" 
+                  width={70}
+                  height={70}
+                  style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                />
               </div>
+              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg text-black flex-1" style={{ fontFamily: 'Arial, sans-serif', margin: 0 }}>
+                WARNING: Stock levels of Mitolyn™ are limited. Accept your reserved bottle above NOW before your discount expires.
+              </p>
             </div>
           </div>
         </div>

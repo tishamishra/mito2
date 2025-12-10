@@ -16,67 +16,58 @@ export default function PrivacyPolicy() {
       <Header />
       <main className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center" style={{ color: '#105bb8', fontFamily: 'Arial, sans-serif' }}>
+          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center" style={{ color: '#1098b7', fontFamily: 'Arial, sans-serif' }}>
             Privacy Policy
           </h1>
           
           <div className="prose prose-lg max-w-none" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
             <p className="text-lg mb-6">
-              This Privacy Policy outlines the types of information that Mitolyn collects and records, as well as how we utilize this information to serve you better.
+              Mitolyn is committed to protecting your privacy and ensuring the security of your personal information. Mitolyn's Privacy Policy outlines how we collect, use, store, and protect your data when you visit our website or make a purchase.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Information Collection and Log Files</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Information We Collect</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Like most websites, Mitolyn follows standard industry practices by utilizing log files. These files automatically record information when visitors access our website. This is a common practice among web hosting providers and is part of standard website analytics. The data collected through log files includes Internet Protocol (IP) addresses, browser types, Internet Service Provider (ISP) details, date and time stamps, referring and exit pages, and potentially the number of clicks. This information is not connected to any personally identifiable data. We use this information to analyze trends, manage our website, track user navigation patterns, and gather demographic insights.
+              Mitolyn collects information that you provide directly when you make a purchase, create an account, or contact our customer service team. Mitolyn gathers personal details including your name, email address, shipping address, billing address, phone number, and payment information. Mitolyn also automatically collects certain technical information when you visit our website, such as your IP address, browser type, device information, and browsing patterns.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Cookies and Web Beacons</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>How We Use Your Information</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Mitolyn utilizes 'cookies' to enhance your browsing experience. These small data files store information about your preferences and the pages you visit on our website. This data helps us optimize your experience by tailoring our website content based on your browser type and other relevant information.
+              Mitolyn uses your personal information to process and fulfill your orders, communicate with you about your purchases, respond to your inquiries, and provide customer support. Mitolyn may also use your information to send you marketing communications about our products and special offers, but only if you have opted in to receive such communications. Mitolyn uses technical information to improve our website functionality, analyze usage patterns, and enhance your browsing experience.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Google DoubleClick DART Cookie</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Information Sharing and Disclosure</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Google serves as a third-party vendor on our website and uses cookies, specifically DART cookies, to serve ads to our visitors based on their visits to our site and other sites on the internet.
+              Mitolyn does not sell, rent, or trade your personal information to third parties. Mitolyn shares your information only with trusted service providers who assist us in operating our website, processing payments, shipping orders, and conducting business operations. Mitolyn requires these partners to maintain the confidentiality of your information and use it solely for the purposes we specify. Mitolyn may also disclose your information if required by law or to protect our rights and the safety of our customers.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Third-Party Advertising</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Cookies and Tracking Technologies</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              You can review the Privacy Policies of each of our advertising partners by consulting the list provided. Third-party ad servers or ad networks use technologies such as cookies, JavaScript, or Web Beacons in their advertisements and links that appear on Mitolyn. These are sent directly to your browser and automatically receive your IP address. These technologies are used to measure the effectiveness of advertising campaigns and to personalize the advertising content you see on websites you visit.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Please note that Mitolyn has no access to or control over cookies used by third-party advertisers.
+              Mitolyn uses cookies and similar tracking technologies to enhance your browsing experience and collect information about how you interact with our website. Mitolyn's cookies help us remember your preferences, analyze website traffic, and personalize content. Mitolyn uses both session cookies, which expire when you close your browser, and persistent cookies, which remain on your device until deleted. You can control cookie preferences through your browser settings, though disabling cookies may limit certain website features.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Third-Party Privacy Policies</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Data Security</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Mitolyn's Privacy Policy does not extend to other advertisers or websites. Therefore, we recommend that you consult the respective Privacy Policies of these third-party ad servers for more detailed information. These policies may include their practices and instructions about how to opt-out of certain options. You can find a complete list of these Privacy Policies and their links here: Privacy Policy Links.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              You have the option to disable cookies through your individual browser settings. For more detailed information about cookie management with specific web browsers, please visit the respective browser websites.
+              Mitolyn implements industry-standard security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. Mitolyn uses secure socket layer (SSL) encryption technology to safeguard your payment information during transmission. Mitolyn stores your data on secure servers with restricted access and regularly reviews our security practices to ensure ongoing protection of your information.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>What Are Cookies?</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Your Rights and Choices</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Cookies are small text files that are placed on your device when you visit a website. They help websites remember your preferences and improve your browsing experience.
+              Mitolyn respects your privacy rights and provides you with control over your personal information. Mitolyn allows you to access, update, or delete your account information at any time through your account settings or by contacting our customer service team. Mitolyn provides options to opt out of marketing communications by clicking the unsubscribe link in our emails or contacting us directly. Mitolyn honors requests to access, correct, or delete your personal information in accordance with applicable privacy laws.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Children's Information</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Children's Privacy</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Protecting children's privacy online is a priority for us. We encourage parents and guardians to observe, participate in, monitor, and guide their children's online activities.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Mitolyn does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you believe that your child has provided this kind of information on our website, we strongly encourage you to contact us immediately. We will make every effort to promptly remove such information from our records.
+              Mitolyn's website is not intended for children under the age of 18. Mitolyn does not knowingly collect personal information from children without parental consent. Mitolyn encourages parents and guardians to monitor their children's online activities and contact us immediately if you believe we have inadvertently collected information from a child.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Online Privacy Policy Only</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Changes to This Privacy Policy</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              This Privacy Policy applies only to our online activities and is valid for visitors to our website regarding the information they share and/or collect on Mitolyn. This policy does not apply to any information collected offline or via channels other than this website.
+              Mitolyn may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Mitolyn will notify you of any material changes by posting the updated policy on our website and updating the "Last Updated" date. Mitolyn encourages you to review this Privacy Policy regularly to stay informed about how we protect your information.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Consent</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Contact Us</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.
+              Mitolyn welcomes your questions, concerns, or requests regarding this Privacy Policy or our privacy practices. Mitolyn's customer service team is available to assist you through our contact page or by reaching out to the appropriate support channel based on your order information.
             </p>
           </div>
         </div>
@@ -85,4 +76,3 @@ export default function PrivacyPolicy() {
     </div>
   );
 }
-

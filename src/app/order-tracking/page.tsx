@@ -16,39 +16,58 @@ export default function OrderTracking() {
       <Header />
       <main className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center" style={{ color: '#105bb8', fontFamily: 'Arial, sans-serif' }}>
-            Order Assistance and Tracking
+          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center" style={{ color: '#1098b7', fontFamily: 'Arial, sans-serif' }}>
+            Order Tracking
           </h1>
           
           <div className="prose prose-lg max-w-none" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
             <p className="text-lg mb-6">
-              We're here to help with all aspects of your order. Please refer to the following options to manage or inquire about your purchase.
-            </p>
-            <p className="text-base md:text-lg mb-8 leading-relaxed">
-              If you need to check your order status, review details, or request updates, you can access order information directly from the links provided below. Our customer support team is also available if you'd like to speak with a representative or have specific questions.
+              Mitolyn provides comprehensive order tracking services to help you monitor your purchase from placement to delivery. Mitolyn's tracking system allows you to check your order status, view shipping information, and receive updates about your shipment.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>For Any Billing Inquiries or Order-Related Questions</h2>
-            
-            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-6 rounded">
-              <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#105bb8' }}>If BuyGoods Appears on Your Credit Card Statement:</h3>
-              <ul className="list-disc list-inside space-y-2 text-base md:text-lg mb-4">
-                <li>For questions, reach out via <a href="https://buygoods.com/contact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Contact</a></li>
-                <li>For tracking and order details, go to <a href="https://buygoods.com/tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Order Tracking</a></li>
-              </ul>
-            </div>
-
-            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-6 rounded">
-              <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#105bb8' }}>If ClickBank Appears on Your Credit Card Statement:</h3>
-              <ul className="list-disc list-inside space-y-2 text-base md:text-lg mb-4">
-                <li>For questions, reach out via <a href="https://support.clickbank.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Contact</a></li>
-                <li>For tracking and order details, go to <a href="https://support.clickbank.com/order-tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Order Tracking</a></li>
-              </ul>
-            </div>
-
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Need Further Assistance?</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>How to Track Your Order</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              If you have additional questions or need personalized support, our customer service team is ready to assist you through the appropriate contact links above. Simply select the contact method that matches the name on your credit card statement, and we'll ensure you receive prompt assistance.
+              Mitolyn sends order confirmation emails containing your order number and tracking information once your order ships. Mitolyn recommends checking your email inbox, including spam folders, for these important updates. Mitolyn's tracking information becomes available within 24-48 hours after your order ships, depending on the shipping method selected.
+            </p>
+
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Order Status Updates</h2>
+            <p className="text-base md:text-lg mb-6 leading-relaxed">
+              Mitolyn provides real-time order status updates through our tracking system. Mitolyn's order statuses include: Order Confirmed, Processing, Shipped, In Transit, Out for Delivery, and Delivered. Mitolyn sends email notifications at each major status change to keep you informed throughout the shipping process.
+            </p>
+
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Tracking by Payment Processor</h2>
+            <p className="text-base md:text-lg mb-6 leading-relaxed">
+              Mitolyn processes orders through secure payment processors, and your tracking information is available through the processor that handled your transaction. Mitolyn provides direct links to the appropriate tracking portal based on your payment method.
+            </p>
+
+            <div className="bg-gray-50 border-l-4 border-gray-400 p-6 my-6 rounded">
+              <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#1098b7' }}>If BuyGoods Appears on Your Credit Card Statement:</h3>
+              <p className="text-base md:text-lg mb-4 leading-relaxed">
+                Mitolyn recommends visiting <a href="https://buygoods.com/tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Order Tracking</a> to access your order details and tracking information. Mitolyn's orders processed through BuyGoods can be tracked using your order number or email address.
+              </p>
+              <p className="text-base md:text-lg mb-4 leading-relaxed">
+                Mitolyn's customer support is available through <a href="https://buygoods.com/contact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Contact</a> for any questions about your order or tracking information.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 border-l-4 border-gray-400 p-6 my-6 rounded">
+              <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#1098b7' }}>If ClickBank Appears on Your Credit Card Statement:</h3>
+              <p className="text-base md:text-lg mb-4 leading-relaxed">
+                Mitolyn recommends visiting <a href="https://support.clickbank.com/order-tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Order Tracking</a> to access your order details and tracking information. Mitolyn's orders processed through ClickBank can be tracked using your order confirmation number.
+              </p>
+              <p className="text-base md:text-lg mb-4 leading-relaxed">
+                Mitolyn's customer support is available through <a href="https://support.clickbank.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Contact</a> for any questions about your order or tracking information.
+              </p>
+            </div>
+
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Delivery Timeframes</h2>
+            <p className="text-base md:text-lg mb-6 leading-relaxed">
+              Mitolyn provides estimated delivery timeframes based on your selected shipping method and destination. Mitolyn's standard shipping typically takes 5-10 business days, while expedited options may arrive sooner. Mitolyn notes that delivery times may vary due to factors beyond our control, including weather conditions, carrier delays, or customs processing for international orders.
+            </p>
+
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Need Additional Assistance?</h2>
+            <p className="text-base md:text-lg mb-6 leading-relaxed">
+              Mitolyn's customer service team is available to assist with any questions about your order or tracking information. Mitolyn recommends contacting the appropriate support channel based on the payment processor shown on your credit card statement. Mitolyn's support team can help resolve tracking issues, provide order updates, or address any concerns about your shipment.
             </p>
           </div>
         </div>
@@ -57,4 +76,3 @@ export default function OrderTracking() {
     </div>
   );
 }
-

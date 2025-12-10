@@ -1,7 +1,7 @@
 export default function ScientificDiscovery() {
   return (
     <>
-      <section className="header3 cid-uwoihflHRW py-10 text-center" id="header3-86" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      <section className="header3 cid-uwoihflHRW py-10 text-center" id="header3-86" style={{ background: '#1098b7' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-9">
@@ -13,19 +13,43 @@ export default function ScientificDiscovery() {
         </div>
       </section>
 
-      <section className="content5 cid-uwoiEcycdT py-12 bg-gradient-to-br from-indigo-50 via-white to-purple-50" id="content5-88">
-        <div className="container mx-auto px-4">
+      <section className="content5 cid-uwyodFwQMT py-12 bg-white" id="content5-m">
+        <div className="container-fluid mx-auto px-4">
           <div className="row justify-center">
             <div className="col-md-12 col-lg-10">
-              <div className="bg-white rounded-2xl p-10 shadow-2xl border-4 border-indigo-400">
-                <p className="text-lg md:text-xl lg:text-2xl leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                Here's what the science actually tells us: your mitochondria are basically the engines that power every single cell in your body. They take the food you eat and turn it into energy your body can actually use - a process called cellular respiration. When these engines are running strong, your body efficiently burns fat and produces energy. But when they're sluggish or damaged, everything slows down, including your metabolism.
+              <h4 className="mbr-section-subtitle mbr-fonts-style mb-4 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
+                <strong>Key Benefits of Mitolyn:</strong>
+              </h4>
+              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
+                Mitolyn offers comprehensive, everyday support for those seeking natural energy, metabolic balance, and sustained vitality. Mitolyn's scientifically-formulated blend addresses multiple aspects of cellular health and metabolic function. Below are Mitolyn's most notable advantages:
                 <br /><br />
-                The research is pretty clear on this - the more healthy mitochondria you have, and the better they're functioning, the more fat your body can burn. It's not complicated: better mitochondria equals better metabolism. On the flip side, when your mitochondria aren't working right, your metabolism tanks, and that's when weight starts creeping on and energy levels drop. This connection between mitochondrial health and metabolism is well-established in scientific literature.
+                <strong>➤ Boosts Energy Production<br /></strong>
+                Mitolyn enhances mitochondrial efficiency to help your body generate stable, lasting energy—keeping you motivated, focused, and active throughout the day.
                 <br /><br />
-                What this means for you is pretty straightforward: if you want to lose weight and feel more energetic, you need to take care of your mitochondria. People with healthy mitochondrial function have more energy, burn fat more efficiently, and generally feel better. It's not about some magic trick or secret formula - it's about giving your cells what they need to do their job properly. That's exactly what Mitolyn is designed to do.
-                </p>
-              </div>
+                <strong>➤ Promotes Metabolic Balance<br /></strong>
+                Mitolyn encourages effective breakdown of fats and nutrients, supporting a smooth, balanced metabolism and consistent weight management.
+                <br /><br />
+                <strong>➤ Strengthens Antioxidant Defense<br /></strong>
+                Mitolyn is rich in protective antioxidants, which help neutralize free radicals, reduce everyday inflammation, and maintain healthy, resilient cells over time.
+                <br /><br />
+                <strong>➤ Supports Stress Resilience<br /></strong>
+                Mitolyn contains adaptogenic botanicals like Rhodiola Rosea and Schisandra, which aid in adapting to stress, fighting fatigue, and improving physical and mental endurance.
+                <br /><br />
+                <strong>➤ Enhances Cognitive Function<br /></strong>
+                Mitolyn's natural nutrients promote sharper thinking, better memory, and improved focus—helping you stay clear-minded and productive all day.
+                <br /><br />
+                <strong>➤ Encourages Graceful Aging<br /></strong>
+                Mitolyn helps counter age-related energy dips by nurturing mitochondrial performance, supporting lasting vitality for a more youthful feeling.
+                <br /><br />
+                <strong>➤ Supports Digestion & Nutrient Uptake<br /></strong>
+                Mitolyn includes ingredients like Amla that aid healthy digestion and efficient nutrient absorption—helping your body make the most of every meal.
+                <br /><br />
+                <strong>➤ Clean, Plant-Based Formula<br /></strong>
+                Mitolyn is crafted with non-GMO, botanical ingredients and free from artificial additives—ideal for safe, long-term daily use.
+                <br /><br />
+                <strong>➤ A Trusted Path to Wellness<br /></strong>
+                Mitolyn is available directly from the Mitolyn Official Store, offering authentic formulations, exclusive discounts, fast shipping, and dependable customer care.
+              </p>
             </div>
           </div>
         </div>

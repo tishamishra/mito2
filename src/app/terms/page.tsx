@@ -16,99 +16,63 @@ export default function Terms() {
       <Header />
       <main className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center" style={{ color: '#105bb8', fontFamily: 'Arial, sans-serif' }}>
+          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center" style={{ color: '#1098b7', fontFamily: 'Arial, sans-serif' }}>
             Terms and Conditions
           </h1>
           
           <div className="prose prose-lg max-w-none" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
             <p className="text-lg mb-6">
-              Welcome to Mitolyn!
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              These terms and conditions outline the rules and regulations for the use of Mitolyn's Website.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              By accessing this website, we assume you accept these terms and conditions. Do not continue to use Mitolyn if you do not agree to take all of the terms and conditions stated on this page.
+              Mitolyn welcomes you to our website. Mitolyn's Terms and Conditions govern your access to and use of our website and services. Mitolyn requires that you read and agree to these terms before using our website or making a purchase.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Terminology</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Acceptance of Terms</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              The following terminology applies to these Terms and Conditions, Privacy Statement, and Disclaimer Notice: "Client", "You" and "Your" refers to you, the person accessing this website and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services.
+              Mitolyn's Terms and Conditions constitute a legally binding agreement between you and Mitolyn. Mitolyn requires that you accept these terms by accessing or using our website. Mitolyn reserves the right to modify these terms at any time, and your continued use of our website constitutes acceptance of any changes. Mitolyn encourages you to review these terms regularly to stay informed of updates.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Cookies</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Use of Website</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              We employ the use of cookies. By accessing Mitolyn, you agreed to use cookies in agreement with Mitolyn's Privacy Policy.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
+              Mitolyn grants you a limited, non-exclusive, non-transferable license to access and use our website for personal, non-commercial purposes. Mitolyn prohibits any unauthorized use of our website, including but not limited to copying, modifying, distributing, transmitting, displaying, or creating derivative works from our content. Mitolyn reserves the right to terminate your access to our website at any time for violation of these terms.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>License</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Product Orders and Pricing</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Unless otherwise stated, Mitolyn and/or its licensors own the intellectual property rights for all material on Mitolyn. All intellectual property rights are reserved. You may access this from Mitolyn for your own personal use, subject to restrictions set in these terms and conditions.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              You must not:
-            </p>
-            <ul className="list-disc list-inside mb-6 space-y-2 text-base md:text-lg">
-              <li>Republish material from Mitolyn</li>
-              <li>Sell, rent, or sub-license material from Mitolyn</li>
-              <li>Reproduce, duplicate, or copy material from Mitolyn</li>
-              <li>Redistribute content from Mitolyn</li>
-            </ul>
-
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Comments</h2>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas. Mitolyn does not filter, edit, publish, or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Mitolyn, its agents, and/or affiliates. Comments reflect the views and opinions of the person who posts their views and opinions.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Mitolyn reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive, or causes breach of these Terms and Conditions.
+              Mitolyn makes every effort to display accurate product information and pricing on our website. Mitolyn reserves the right to correct any errors in pricing or product information, even after an order has been placed. Mitolyn may refuse or cancel any order at our discretion, including orders that appear to be placed by dealers, resellers, or distributors. Mitolyn's prices are subject to change without notice, and Mitolyn is not obligated to honor prices that are clearly incorrect due to typographical errors.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Hyperlinking to our Content</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Payment Terms</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              The following organizations may link to our Website without prior written approval:
-            </p>
-            <ul className="list-disc list-inside mb-6 space-y-2 text-base md:text-lg">
-              <li>Government agencies</li>
-              <li>Search engines</li>
-              <li>News organizations</li>
-              <li>Online directory distributors</li>
-              <li>System-wide Accredited Businesses (except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups)</li>
-            </ul>
-
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>iFrames</h2>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Without prior approval and written permission, you may not create frames around our Web pages that alter in any way the visual presentation or appearance of our Website.
+              Mitolyn accepts various payment methods as indicated on our website. Mitolyn processes payments through secure third-party payment processors. Mitolyn requires that you provide accurate payment information and authorize us to charge your payment method for the total amount of your order. Mitolyn is not responsible for any fees charged by your financial institution related to your purchase.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Content Liability</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Shipping and Delivery</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              We shall not be held responsible for any content that appears on your Website. You agree to protect and defend us against all claims that arise on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene, or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
+              Mitolyn ships products to the address you provide during checkout. Mitolyn is not responsible for delays caused by shipping carriers or incorrect shipping addresses provided by customers. Mitolyn's shipping times are estimates and not guarantees. Mitolyn recommends reviewing our shipping policy for detailed information about delivery times and shipping options.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Your Privacy</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Intellectual Property</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Please read our <a href="/privacy-policy" className="text-blue-600 hover:underline">Privacy Policy</a>.
+              Mitolyn owns all content on our website, including text, graphics, logos, images, and software. Mitolyn's content is protected by copyright, trademark, and other intellectual property laws. Mitolyn prohibits any unauthorized reproduction, distribution, or use of our content without express written permission. Mitolyn reserves all rights not expressly granted in these terms.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Reservation of Rights</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>User Conduct</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amend these terms and conditions and its linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.
+              Mitolyn expects users to use our website in a lawful and respectful manner. Mitolyn prohibits any activity that could harm, disable, or impair our website or interfere with other users' access. Mitolyn reserves the right to investigate and take appropriate legal action against any violations of these terms. Mitolyn may suspend or terminate accounts that violate these terms.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Removal of Links from Our Website</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Limitation of Liability</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              If you find any link on our Website that is offensive for any reason, you are free to contact and inform us at any moment. We will consider requests to remove links, but we are not obligated to do so or to respond to you directly.
-            </p>
-            <p className="text-base md:text-lg mb-6 leading-relaxed">
-              We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
+              Mitolyn's liability is limited to the maximum extent permitted by applicable law. Mitolyn shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our website or products. Mitolyn's total liability for any claims shall not exceed the amount you paid for the product in question. Mitolyn disclaims all warranties except those expressly stated in these terms.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#105bb8' }}>Disclaimer</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Governing Law</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              To the maximum extent permitted by applicable law, we exclude all representations, warranties, and conditions relating to our website and the use of this website. Nothing in this disclaimer will limit or exclude our or your liability for death or personal injury, limit or exclude our or your liability for fraud or fraudulent misrepresentation, limit any of our or your liabilities in any way that is not permitted under applicable law, or exclude any of our or your liabilities that may not be excluded under applicable law.
+              Mitolyn's Terms and Conditions are governed by the laws of the jurisdiction in which Mitolyn operates. Mitolyn requires that any disputes arising from these terms be resolved through binding arbitration or in the appropriate courts of that jurisdiction. Mitolyn reserves the right to seek injunctive relief in any court of competent jurisdiction.
+            </p>
+
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Contact Information</h2>
+            <p className="text-base md:text-lg mb-6 leading-relaxed">
+              Mitolyn welcomes questions about these Terms and Conditions. Mitolyn's customer service team is available to assist you through our contact page or the appropriate support channels based on your order information.
             </p>
           </div>
         </div>
@@ -117,4 +81,3 @@ export default function Terms() {
     </div>
   );
 }
-

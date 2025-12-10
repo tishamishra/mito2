@@ -1,32 +1,30 @@
 export default function HowItWorks() {
   return (
     <>
-      <section className="header3 cid-tB85bPoWQz py-10 text-center" id="header3-1m" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
-        <div className="align-center container mx-auto px-4">
-          <div className="row justify-center">
-            <div className="col-12 col-lg-12">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>How Does Mitolyn Work?</strong>
-              </h2>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="content5 cid-uwp249BoIi py-12 bg-white" id="content5-8b">
-        <div className="container mx-auto px-4">
+      <section className="content5 cid-uwxLB85buw py-12 bg-white" id="content5-c">
+        <div className="container-fluid mx-auto px-4">
           <div className="row justify-center">
             <div className="col-md-12 col-lg-10">
-              <p className="text-base md:text-lg lg:text-xl leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                Let me break down how Mitolyn actually works, because understanding the science makes all the difference. Think of your mitochondria like tiny engines inside every cell. When those engines are running strong, your body efficiently turns food into energy and burns through stored fat. But here's the thing - as we age or deal with stress, these engines start to sputter. That's when your metabolism hits the brakes, and suddenly you're gaining weight even though nothing's really changed.
+              <h4 className="mbr-section-subtitle mbr-fonts-style mb-4 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
+                <strong>How Does Mitolyn Work?</strong>
+              </h4>
+              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
+                Mitolyn works by revitalizing the way your mitochondria—the tiny energy factories inside your cells—produce and manage energy. Mitolyn optimizes mitochondrial function, enabling your entire body to benefit with greater vitality, clearer focus, and more consistent energy throughout the day. Here's how Mitolyn helps optimize your internal energy engine:
                 <br /><br />
-                Mitolyn steps in and basically tunes up those engines. The six natural ingredients in the formula work like a well-coordinated team. They don't just give you a temporary boost - they actually repair and strengthen your mitochondria so they work better long-term. Once your cells are producing energy properly again, you'll notice the difference. Fat starts melting away, especially from those problem spots that never seem to respond to dieting. Your energy levels climb, and that constant feeling of being stressed or overwhelmed starts to fade.
+                <strong>➤ Boosting Cellular Energy (ATP) Production<br /></strong>
+                Mitolyn supports mitochondria in generating adenosine triphosphate (ATP), the essential molecule that fuels every bodily process. Mitolyn's advanced nutrient complex promotes efficient, steady ATP output—helping you stay active and alert all day long.
                 <br /><br />
-                But it doesn't stop there. Because your cells are working better, your whole system benefits. Your immune system gets stronger, your digestion improves, and you just feel... better. More balanced, more like yourself again.
+                <strong>➤ Turning Fat into Energy<br /></strong>
+                Mitolyn enhances your body's ability to convert stored fat into usable fuel more effectively. Mitolyn promotes this metabolic pathway, aiding natural weight balance and smoother energy flow without relying on stimulants.
                 <br /><br />
-                Now, there's this technique that's been getting a lot of attention called the "purple peel method." It's surprisingly simple but incredibly effective. When you pair it with Mitolyn, the results are pretty incredible. We're talking about potentially tripling your metabolic rate without having to live at the gym or survive on lettuce. It's one of those "why didn't I know about this sooner?" kind of discoveries.
+                <strong>➤ Shielding Cells from Oxidative Stress<br /></strong>
+                Mitolyn is rich in antioxidants like Maqui Berry and Astaxanthin, which help neutralize free radicals that can slow down metabolism and accelerate aging. Mitolyn protects cellular integrity and promotes long-term wellness.
                 <br /><br />
-                Bottom line? Mitolyn fixes the root cause instead of just treating symptoms. It gets your metabolism back on track, gives you real energy (not the jittery, crash-and-burn kind), and helps you finally see the results you've been working toward. Combined with the purple peel technique, it's honestly one of the most effective natural solutions I've come across.
+                <strong>➤ Balancing the Body's Stress Response<br /></strong>
+                Mitolyn contains adaptogenic botanicals such as Rhodiola Rosea and Schisandra, which help the body adapt to daily physical and emotional stress. Mitolyn's natural compounds support stamina, focus, and mental calm under pressure.
+                <br /><br />
+                <strong>➤ Supporting Healthy Aging<br /></strong>
+                Mitolyn helps offset age-related energy decline by sustaining mitochondrial performance. Mitolyn supports youthful metabolism, better endurance, and overall vitality—so you feel energized and balanced as you age gracefully.
               </p>
             </div>
           </div>

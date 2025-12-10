@@ -79,49 +79,6 @@ export default function WhyChoose() {
           </div>
         </div>
       </section>
-
-      <section className="features023 cid-uwxD8c3Fih py-12" id="features023-8l" style={{ backgroundColor: '#f8f9ff' }}>
-        <div className="container mx-auto px-4">
-          <div className="row content-row justify-center flex flex-col md:flex-row gap-6">
-            <div className="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-              <div className="item-wrapper bg-white rounded-lg p-6 shadow-md border border-gray-200">
-                <div className="title mb-4 flex justify-center">
-                  <div className="w-20 h-20 rounded-full flex items-center justify-center bg-green-100 text-green-700 font-bold text-2xl">
-                    99%
-                  </div>
-                </div>
-                <h4 className="card-title text-xl font-semibold text-center" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
-                  <strong>Happy Customers</strong>
-                </h4>
-              </div>
-            </div>
-            <div className="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-              <div className="item-wrapper bg-white rounded-lg p-6 shadow-md border border-gray-200">
-                <div className="title mb-4 flex justify-center">
-                  <div className="w-20 h-20 rounded-full flex items-center justify-center bg-blue-100 text-blue-700 font-bold text-lg">
-                    90 Days
-                  </div>
-                </div>
-                <h4 className="card-title text-xl font-semibold text-center" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
-                  <strong>Risk-Free Trial</strong>
-                </h4>
-              </div>
-            </div>
-            <div className="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-              <div className="item-wrapper bg-white rounded-lg p-6 shadow-md border border-gray-200">
-                <div className="title mb-4 flex justify-center">
-                  <div className="w-20 h-20 rounded-full flex items-center justify-center bg-yellow-100 text-yellow-700 font-bold text-xl">
-                    ⭐⭐⭐⭐⭐
-                  </div>
-                </div>
-                <h4 className="card-title text-xl font-semibold text-center" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
-                  <strong>Top Rated</strong>
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

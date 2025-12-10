@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Bonuses() {
   return (
     <>
-      <section className="header3 cid-udGvtAJfqr py-10 text-center" id="header3-7i" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      <section className="header3 cid-udGvtAJfqr py-10 text-center" id="header3-7i" style={{ background: '#1098b7' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-9">
@@ -16,33 +16,39 @@ export default function Bonuses() {
         </div>
       </section>
 
-      <section className="team2 cid-uwp5OzT8i9 py-12 bg-gradient-to-br from-yellow-50 via-orange-50 to-pink-50" id="team2-8d">
+      <section className="team2 cid-uwp5OzT8i9 py-12 bg-white" id="team2-8d">
         <div className="container mx-auto px-4" style={{ paddingTop: '2rem', paddingBottom: '2rem', maxWidth: '85%' }}>
-          <div className="item features-image bg-gradient-to-r from-yellow-100 to-orange-100 rounded-2xl p-6 md:p-8 shadow-xl border-4 border-yellow-400">
+          <div className="item features-image bg-white rounded-lg p-6 md:p-8 shadow-lg border border-gray-200">
             <div className="item-wrapper">
               <div className="row align-items-center flex flex-col md:flex-row gap-6">
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-5">
                   <div className="image-wrapper">
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-bonus.webp?updatedAt=1765361274887" 
                       alt="Mitolyn bonus 2" 
-                      width={400} 
-                      height={400}
-                      className="w-full h-auto rounded-lg"
-                      style={{ maxWidth: '100%', height: 'auto' }}
+                      width={600} 
+                      height={600}
+                      className="w-full h-auto rounded-lg shadow-xl"
+                      style={{ 
+                        maxWidth: '100%', 
+                        width: '100%',
+                        height: 'auto',
+                        minHeight: '400px',
+                        objectFit: 'contain'
+                      }}
                     />
                   </div>
                 </div>
                 <div className="col-12 col-md flex-1">
                   <div className="card-box">
-                    <h5 className="card-title mb-3 text-2xl md:text-3xl font-extrabold" style={{ color: 'rgb(228, 63, 63)' }}>
-                      <strong>🎁 BONUS #1</strong>
+                    <h5 className="card-title mb-3 text-2xl md:text-3xl font-bold" style={{ color: '#e6502b' }}>
+                      <strong>BONUS #1: 1-Day Kickstart Detox</strong>
                     </h5>
-                    <h5 className="card-subtitle mb-3 text-xl md:text-2xl font-bold" style={{ color: 'rgb(16, 91, 184)' }}>
-                      <strong>1-Day Kickstart Detox</strong>
-                    </h5>
+                    <h6 className="card-subtitle mb-3 text-lg md:text-xl font-semibold" style={{ color: '#666666' }}>
+                      <strong>Regular Price: $69.95 | Today: Free</strong>
+                    </h6>
                     <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                      When you order the 3 or 6 bottle package, you'll get this amazing 1-Day Kickstart Detox guide completely free. Think of it as giving your body a clean slate before you start with Mitolyn. The guide shows you how to make simple detox teas using stuff you probably already have in your kitchen. These teas help clear out the junk, help your body absorb nutrients better, and basically get everything ready for Mitolyn to do its thing. It's like spring cleaning for your insides.
+                      Mitolyn customers who order 3 or 6 bottle packages receive this comprehensive 1-Day Kickstart Detox guide at no additional cost. Mitolyn's detox protocol helps prepare your body for optimal supplement absorption by cleansing and flushing your organs. Mitolyn's guide includes 20 simple 15-second detox tea recipes using everyday ingredients from your kitchen, designed to enhance your Mitolyn journey from day one.
                     </p>
                   </div>
                 </div>
@@ -52,33 +58,39 @@ export default function Bonuses() {
         </div>
       </section>
 
-      <section className="team2 cid-uwp5LO3gdh py-12 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50" id="team2-8c">
+      <section className="team2 cid-uwp5LO3gdh py-12 bg-white" id="team2-8c">
         <div className="container mx-auto px-4" style={{ paddingTop: '2rem', paddingBottom: '2rem', maxWidth: '85%' }}>
-          <div className="item features-image bg-gradient-to-r from-blue-100 to-purple-100 rounded-2xl p-6 md:p-8 shadow-xl border-4 border-blue-400">
+          <div className="item features-image bg-white rounded-lg p-6 md:p-8 shadow-lg border border-gray-200">
             <div className="item-wrapper">
               <div className="row align-items-center flex flex-col md:flex-row gap-6">
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-5">
                   <div className="image-wrapper">
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-bonus-2.webp?updatedAt=1765361274887" 
                       alt="Mitolyn bonus 2" 
-                      width={400} 
-                      height={400}
-                      className="w-full h-auto rounded-lg"
-                      style={{ maxWidth: '100%', height: 'auto' }}
+                      width={600} 
+                      height={600}
+                      className="w-full h-auto rounded-lg shadow-xl"
+                      style={{ 
+                        maxWidth: '100%', 
+                        width: '100%',
+                        height: 'auto',
+                        minHeight: '400px',
+                        objectFit: 'contain'
+                      }}
                     />
                   </div>
                 </div>
                 <div className="col-12 col-md flex-1">
                   <div className="card-box">
-                    <h5 className="card-title mb-3 text-2xl md:text-3xl font-extrabold" style={{ color: 'rgb(228, 63, 63)' }}>
-                      <strong>🎁 BONUS #2</strong>
+                    <h5 className="card-title mb-3 text-2xl md:text-3xl font-bold" style={{ color: '#e6502b' }}>
+                      <strong>BONUS #2: Renew You</strong>
                     </h5>
-                    <h5 className="card-subtitle mb-3 text-xl md:text-2xl font-bold" style={{ color: 'rgb(16, 91, 184)' }}>
-                      <strong>Renew You</strong>
-                    </h5>
+                    <h6 className="card-subtitle mb-3 text-lg md:text-xl font-semibold" style={{ color: '#666666' }}>
+                      <strong>Regular Price: $59.95 | Today: Free</strong>
+                    </h6>
                     <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                      Your second free bonus is the Renew You guide, and honestly, this one might be just as important as the supplement itself. Changing your body is hard enough without your mind working against you. This guide gives you practical ways to handle stress, build real confidence, and clear that mental fog. When you're in the right headspace, staying motivated becomes so much easier. You'll feel less anxious, more in control, and actually excited about the changes you're making instead of dreading them.
+                      Mitolyn includes the Renew You guide as your second complimentary bonus, focusing on mental wellness and mindset transformation. Mitolyn recognizes that physical transformation requires mental alignment, which is why this guide provides simple methods to instantly relieve stress, calm your mind, boost confidence, and reduce anxiety. Mitolyn's holistic approach ensures you achieve both physical and mental renewal as you progress on your wellness journey.
                     </p>
                   </div>
                 </div>

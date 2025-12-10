@@ -19,25 +19,24 @@ import StructuredData from '@/components/StructuredData';
 
 export default function Home() {
   return (
-    <div className="min-h-screen" style={{ background: 'linear-gradient(to bottom, #f8f9ff 0%, #ffffff 50%, #f8f9ff 100%)' }}>
+    <div className="min-h-screen" style={{ background: '#ffffff' }}>
       <StructuredData />
       <Header />
       <main>
         <Hero />
-        <WhatIsMitolyn />
+        <Reviews />
         <PricingSection />
         <WhyChoose />
+        <WhatIsMitolyn />
         <HowItWorks />
-        <Reviews />
         <Benefits />
         <PricingOffer />
         <Bonuses />
-        <Guarantee />
         <Ingredients />
         <ScientificDiscovery />
-        <FinalCTA />
+        <Guarantee />
         <FAQ />
-        <ActNow />
+        <FinalCTA />
       </main>
       <Footer />
     </div>

@@ -3,14 +3,15 @@ import Script from "next/script";
 import "./globals.css";
 import "./socicon.css";
 import "./mobirise-sections.css";
+import "./competitor-styles.css";
 
 export const metadata: Metadata = {
-  title: "Mitolyn Official - Natural Fat Loss Support | USA",
-  description: "Mitolyn official website supplement. Buy Mitolyn for fat loss, weight loss & energy boost. Read reviews, learn benefits & order today. USA official website.",
-  keywords: "mitolyn, mitolyn official, mitolyn buy, mitolyn fat loss, mitolyn reviews, mitolyn official website supplement, mitolyn usa official website",
+  title: "Mitolyn™ Official | Metabolism Booster & Fat Burner",
+  description: "Mitolyn official site - premium metabolism booster and fat burner. Discover benefits, read reviews, and purchase Mitolyn for weight loss support and enhanced energy.",
+  keywords: "mitolyn, mitolyn official, mitolyn buy, mitolyn fat loss, mitolyn reviews, mitolyn official website supplement, mitolyn usa official website, mitolyn metabolism booster, mitolyn fat burner",
   openGraph: {
-    title: "Mitolyn Official - Natural Fat Loss Support | USA",
-    description: "Mitolyn official website supplement. Buy Mitolyn for fat loss, weight loss & energy boost. Read reviews & order today.",
+    title: "Mitolyn™ Official | Metabolism Booster & Fat Burner",
+    description: "Mitolyn official site - premium metabolism booster. Discover benefits, read reviews, and order Mitolyn for weight loss support and energy boost.",
     url: "https://mtolyn-us.com/",
     siteName: "Mitolyn Official",
     type: "website",
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mitolyn Official - Natural Fat Loss Support",
-    description: "Mitolyn official website supplement. Buy Mitolyn for fat loss & weight loss. Read reviews & order today.",
+    title: "Mitolyn™ Official | Metabolism Booster & Fat Burner",
+    description: "Mitolyn official site - premium metabolism booster and fat burner. Read reviews and order Mitolyn for weight loss support today.",
     images: ["https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"],
   },
   alternates: {

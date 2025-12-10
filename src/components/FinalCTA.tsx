@@ -1,7 +1,7 @@
 export default function FinalCTA() {
   return (
     <>
-      <section className="header14 cid-uwxDfUAqh9 py-12" id="header14-8n" style={{ backgroundColor: '#f8f9ff' }}>
+      <section className="header14 cid-uwxDfUAqh9 py-12" id="header14-8n" style={{ backgroundColor: '#ffffff' }}>
         <div className="container mx-auto px-4">
           <div className="row justify-center">
             <div className="card col-12 col-md-12 col-lg-10">
@@ -11,10 +11,10 @@ export default function FinalCTA() {
                     <strong>Ready to Finally See Real Results?</strong>
                   </h2>
                   <p className="text-base md:text-lg lg:text-xl leading-relaxed mb-6" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                    Look, I get it. You've probably tried a lot of things. Maybe you've lost hope that anything will actually work. But here's the thing - when you fix what's actually broken (your mitochondria), everything else starts falling into place. <br /><br />
-                    With Mitolyn, you're not just trying another weight loss pill. You're giving your body the tools it needs to function the way it's supposed to. More energy, better fat burning, a metabolism that actually works - it's all possible when your cells are running at full capacity. <br /><br />
-                    And remember, you've got that 90-day guarantee backing you up. If it doesn't work, you get your money back. Simple as that. But I think once you start feeling the difference, you won't want to send it back. <br /><br />
-                    Don't wait for the perfect moment. The perfect moment is right now. Click below and let's get started.
+                    Mitolyn offers a science-backed approach to metabolic optimization and sustainable weight management. Mitolyn addresses the root cause of metabolic slowdown by supporting mitochondrial function, enabling your body to operate at peak efficiency. <br /><br />
+                    Mitolyn provides your body with the essential nutrients needed to enhance energy production, improve fat metabolism, and restore optimal cellular function. Mitolyn's comprehensive formula works synergistically to deliver results that extend beyond simple weight loss, supporting overall vitality and well-being. <br /><br />
+                    Mitolyn is backed by a 90-day money-back guarantee, ensuring your complete satisfaction. Mitolyn's commitment to your success means you can experience the benefits risk-free. <br /><br />
+                    Mitolyn is available now at special pricing for a limited time. Take the first step toward optimal metabolic health and enhanced vitality today.
                   </p>
                   <div className="mt-6">
                     <a 

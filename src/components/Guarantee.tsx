@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Guarantee() {
   return (
     <>
-      <section className="header3 cid-uhfTGZCgag py-10 text-center" id="header3-7o" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      <section className="header3 cid-uhfTGZCgag py-10 text-center" id="header3-7o" style={{ background: '#1098b7' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-9">
@@ -18,22 +18,32 @@ export default function Guarantee() {
       <section className="header11 cid-uhfTEDrzG6 py-12 bg-white" id="header11-7n">
         <div className="container mx-auto px-4">
           <div className="row justify-center items-center flex flex-col md:flex-row gap-8">
-            <div className="col-12 col-md-4 image-wrapper">
-              <div className="rounded-lg overflow-hidden shadow-md">
+            <div className="col-12 col-md-5 image-wrapper">
+              <div className="rounded-lg overflow-hidden shadow-xl">
                 <Image 
                   className="w-full h-auto" 
                   src="https://ik.imagekit.io/affin/money-back-guarantee.webp?updatedAt=1765361274891" 
                   alt="Mitolyn-money-back-guarantee" 
-                  width={400} 
-                  height={400}
-                  style={{ maxWidth: '100%', height: 'auto' }}
+                  width={600} 
+                  height={600}
+                  style={{ 
+                    maxWidth: '100%', 
+                    width: '100%',
+                    height: 'auto',
+                    minHeight: '500px',
+                    objectFit: 'contain'
+                  }}
                 />
               </div>
             </div>
             <div className="col-12 col-md flex-1">
               <div className="text-wrapper text-center md:text-left">
+                <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
+                  <strong>90-Day Money-Back Promise</strong>
+                </h3>
                 <p className="text-base md:text-lg lg:text-xl leading-relaxed mb-6" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                  I know trying a new supplement can feel like a gamble, which is why we stand behind Mitolyn with a full 90-day money-back guarantee. If you don't see the results you're looking for - whether that's losing weight, having more energy, or just feeling better overall - just send it back. No questions asked, no hassle. We're that confident this will work for you. You've got nothing to lose except maybe some stubborn fat.
+                  Mitolyn comes with a comprehensive 90-day satisfaction guarantee. Mitolyn's commitment to your success means that if you don't notice the difference—whether it's renewed energy, smoother metabolism, or improved overall wellness—you can simply reach out within 90 days for a prompt and courteous refund, no questions asked. <br /><br />
+                  Mitolyn offers exclusive limited-time pricing when you order today from the official website. Mitolyn provides major savings on this best-selling metabolic support formula, allowing you to start your journey toward balanced energy, confidence, and lasting well-being at an exceptional value.
                 </p>
                 <div className="mt-6">
                   <a 
@@ -42,7 +52,7 @@ export default function Guarantee() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Get Huge Off Today →
+                    Order Mitolyn Now →
                   </a>
                 </div>
               </div>

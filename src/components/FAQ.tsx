@@ -7,66 +7,70 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What exactly is Mitolyn?",
-      answer: "Mitolyn is a natural supplement that targets the root cause of slow metabolism - your mitochondria. Think of it like a tune-up for your cellular engines. When your mitochondria are working properly, your body burns fat more efficiently and produces more energy. The formula combines six carefully selected plant-based ingredients, each chosen for their ability to support mitochondrial health. It's not a stimulant or a quick fix - it's a way to actually fix what's broken so your body can do what it's supposed to do."
+      question: "Who is Mitolyn suitable for?",
+      answer: "Mitolyn is designed for adults who want to naturally boost energy, support metabolism, and maintain overall wellness. Mitolyn's plant-based formulation makes it suitable for most adults seeking metabolic support. Mitolyn should not be used by individuals who are pregnant, nursing, under medical supervision, or taking medication without first consulting a healthcare provider."
     },
     {
-      question: "Is Mitolyn safe to use?",
-      answer: "Absolutely. Everything in Mitolyn is 100% natural and plant-based. No weird chemicals, no synthetic stimulants, nothing artificial. It's made right here in the USA in facilities that are FDA-registered and GMP-certified, which means they follow the strictest quality standards. Plus, it's completely free of soy, dairy, and GMOs. If you're looking for a clean, safe supplement, this is it."
+      question: "Does Mitolyn cause any side effects?",
+      answer: "Mitolyn is formulated with clean, plant-derived ingredients and is generally well tolerated. Mitolyn's natural composition minimizes the risk of adverse reactions. Some users may notice mild digestive adjustments or temporary energy shifts as the body adapts. Mitolyn recommends discontinuing use and consulting your physician if any discomfort occurs."
     },
     {
-      question: "Where is Mitolyn manufactured?",
-      answer: "Mitolyn is made in the United States in facilities that are both FDA-registered and GMP-certified. That means every batch goes through rigorous testing to make sure you're getting a pure, potent product. We use only high-quality, non-GMO ingredients, and we stand behind every bottle that goes out."
+      question: "How long does it take to see results with Mitolyn?",
+      answer: "Mitolyn's effects vary depending on the individual, but many users begin noticing improved energy, mood, and focus within the first few weeks. Mitolyn works best when used consistently while maintaining a balanced diet and healthy lifestyle. Mitolyn's cumulative benefits become more pronounced with continued use over time."
     },
     {
-      question: "How does Mitolyn support weight loss?",
-      answer: "It's all about fixing your mitochondria. When those cellular engines are running strong, your metabolism speeds up and your body becomes more efficient at burning stored fat. It's not about suppressing your appetite or giving you jitters - it's about making your cells work better. Over time, as your mitochondria function improves, you'll notice fat melting away, especially from those stubborn areas that never seem to respond to diet and exercise alone."
+      question: "Can Mitolyn be used long-term?",
+      answer: "Mitolyn's stimulant-free, botanical formulation is crafted for safe, long-term daily use. Mitolyn's natural ingredients support sustainable metabolic health without dependency concerns. Mitolyn recommends checking in with your healthcare professional for personalized advice on extended use."
     },
     {
-      question: "How should I take Mitolyn for the best results?",
-      answer: "Keep it simple - just one capsule a day with a meal. The key is consistency. Make it part of your daily routine, like brushing your teeth. While Mitolyn works on its own, you'll see the best results when you combine it with a healthy lifestyle. That doesn't mean you need to go on some extreme diet or live at the gym - just eat reasonably well and stay active. The supplement does the heavy lifting, but a little help from you goes a long way."
+      question: "Is there a Mitolyn special offer available?",
+      answer: "Mitolyn can be purchased at special discounted rates directly from the official website for a limited time. Mitolyn offers bundle pricing and promotional savings while supplies last. Mitolyn's current pricing represents significant value for this best-selling metabolic support formula."
+    },
+    {
+      question: "Where can I buy Mitolyn safely?",
+      answer: "Mitolyn is available directly from the official Mitolyn website or verified partners to ensure authenticity and access exclusive deals. Mitolyn's official channels guarantee genuine products, bundle savings, and fast, secure shipping. Mitolyn recommends purchasing only from authorized sources to ensure product quality and customer support."
     }
   ];
 
   return (
     <>
-      <section className="header3 cid-tB88MG5MRU py-10 text-center" id="header3-1p" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      <section className="header3 cid-uwypPCiL9D py-10 text-center" id="mitolyn-faq" style={{ background: '#ffffff' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-12">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
+              <h3 className="mbr-section-title mb-0 mbr-fonts-style display-2 text-3xl md:text-4xl lg:text-5xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
                 <strong>Mitolyn Frequently Asked Questions</strong>
-              </h2>
+              </h3>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="content16 cid-tTNurdHq8c py-12 bg-gradient-to-br from-blue-50 via-white to-purple-50" id="content16-69">
+      <section className="content17 cid-uwypPCiL9D py-12" id="content17-faq" style={{ background: '#ffffff' }}>
         <div className="container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-md-10">
               <div id="bootstrap-accordion_36" className="panel-group accordionStyles accordion">
                 {faqs.map((faq, index) => (
-                  <div key={index} className="card mb-4 rounded-2xl overflow-hidden shadow-lg border-4 border-blue-300 hover:border-blue-500 transition-all duration-300">
-                    <div className="card-header bg-gradient-to-r from-blue-100 to-purple-100">
+                  <div key={index} className="card mb-3 rounded-lg overflow-hidden shadow-sm border border-gray-200 hover:shadow-md transition-all duration-200">
+                    <div className="card-header bg-white">
                       <button
                         type="button"
-                        className="panel-title w-full text-left p-6 flex justify-between items-center hover:bg-gradient-to-r hover:from-blue-200 hover:to-purple-200 transition-all duration-300"
+                        className="panel-title w-full text-left p-5 flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
                         onClick={() => setOpenIndex(openIndex === index ? null : index)}
                       >
-                        <h6 className="font-extrabold text-xl md:text-2xl" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
+                        <h6 className="font-bold text-lg md:text-xl" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
                           <strong>{faq.question}</strong>
                         </h6>
-                        <span className="text-purple-600 text-4xl font-bold">
+                        <span className="text-gray-600 text-2xl font-normal" style={{ fontFamily: 'Arial, sans-serif' }}>
                           {openIndex === index ? '−' : '+'}
                         </span>
                       </button>
                     </div>
                     {openIndex === index && (
                       <div className="panel-collapse">
-                        <div className="panel-body p-6 bg-white">
-                          <p className="text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
+                        <div className="panel-body p-5 bg-white border-t border-gray-100">
+                          <p className="text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
                             {faq.answer}
                           </p>
                         </div>
@@ -74,27 +78,6 @@ export default function FAQ() {
                     )}
                   </div>
                 ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="content5 cid-uwxDbNctQa py-16 bg-gradient-to-br from-green-50 via-white to-teal-50" id="content5-8m">
-        <div className="container mx-auto px-4">
-          <div className="row justify-center">
-            <div className="col-md-12 col-lg-10">
-              <div className="bg-white rounded-2xl p-10 shadow-2xl border-4 border-green-400">
-                <h4 className="text-3xl md:text-4xl font-extrabold mb-6" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>Is My Credit Card Information Safe?</h4>
-                <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                I know online security is a big concern, and it should be. That's why we take it seriously. We use bank-level encryption to protect your information, and our servers are secured with the same technology that financial institutions use. Your credit card details and personal information are encrypted the moment you enter them, so they stay safe throughout the entire transaction process.
-                <br /><br />
-                <strong>Here's the bottom line</strong>:<br />
-                We've built our entire checkout process around keeping your information safe. You can shop with complete confidence knowing we're using industry-standard security practices. Your data is protected, period.
-                <br /><br />
-                <strong>And remember</strong>:<br />
-                With our 90-day money-back guarantee, you're not just protected online - you're protected if the product doesn't work for you. We're that confident you'll love it, and we want you to feel completely comfortable giving it a try.
-                </p>
               </div>
             </div>
           </div>
